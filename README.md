@@ -1,3 +1,16 @@
+## 실행방법
+
+1. git에서 프로젝트를 클론한다.
+2. 터미널에서 해당 프로젝트의 경로로 이동한다.
+3. 프로젝트 경로에서 npm install 명령을 실행한다.
+4. npm start로 프로젝트를 실행한다.
+   (5) 현재 api 호출 주소는 local서버인 localhost:8000으로 잡혀있다. 정확한 기능 구현을 위해서는
+   배포된 서버 주소를 package.json의 "proxy":"http://localhost:8000", 주소를 변경하면 된다.
+
+## 배포 주소
+
+https://wanted-pre-onboarding-ye.web.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
